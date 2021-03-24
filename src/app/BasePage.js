@@ -18,7 +18,7 @@ import EmployeeList from './modules/_EmployeeDemo/pages/EmployeeList'
 import UseFormikWithTextField from './modules/_FormikUseFormik/pages/WithTextField'
 import UseFormikWithDropdownCascade from './modules/_FormikUseFormik/pages/WithDropdownCascade'
 import WithAllComponents from "./modules/_FormikUseFormik/pages/WithAllComponents";
-
+import Boom from "./pages/Boom";
 import Diadora from "./pages/Diadora";
 import Kae from "./pages/Kae";
 
@@ -51,9 +51,8 @@ export default function BasePage(props) {
         <ContentRoute exact path="/useFormik/all" component={WithAllComponents} />
         <ContentRoute exact path="/Diadora" component={Diadora} />
         {/* End Demo part สามารถ comment ได้ */}
-
+        <ContentRoute exact path="/boomฺ" component={Boom} />
         <ContentRoute exact path="/kae" component={Kae} />
-
         <Route
           path="/errorUnAuthorized"
           component={ErrorUnAuthorized}
