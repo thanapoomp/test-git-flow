@@ -18,7 +18,10 @@ import EmployeeList from './modules/_EmployeeDemo/pages/EmployeeList'
 import UseFormikWithTextField from './modules/_FormikUseFormik/pages/WithTextField'
 import UseFormikWithDropdownCascade from './modules/_FormikUseFormik/pages/WithDropdownCascade'
 import WithAllComponents from "./modules/_FormikUseFormik/pages/WithAllComponents";
+
+import Diadora from "./pages/Diadora";
 import Kae from "./pages/Kae";
+
 
 export default function BasePage(props) {
   // useEffect(() => {
@@ -46,6 +49,7 @@ export default function BasePage(props) {
         <ContentRoute exact path="/useFormik/textfield" component={UseFormikWithTextField} />
         <ContentRoute exact path="/useFormik/dropdown" component={UseFormikWithDropdownCascade} />
         <ContentRoute exact path="/useFormik/all" component={WithAllComponents} />
+        <ContentRoute exact path="/Diadora" component={Diadora} />
         {/* End Demo part สามารถ comment ได้ */}
 
         <ContentRoute exact path="/kae" component={Kae} />
